@@ -1,0 +1,2 @@
+.portfolio filter=lfs diff=lfs merge=lfs -text
+*.portfolio filter=lfs diff=lfs merge=lfs -text
