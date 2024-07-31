@@ -14,11 +14,11 @@ const Header = () => {
   return (
     <>
       <div className="bg-red-500 h-screen bg-cover bg-center relative">
-        <div className="absolute inset-0 flex items-center justify-center ml-[40%]">
+        <div className="absolute inset-0 flex items-center justify-center md:ml-[40%]">
           <img
             src={image}
             alt="bgimage"
-            className="object-cover opacity-50"
+            className="object-cover opacity-50 w-full h-full"
           />
         </div>
         <nav className="relative z-10">
@@ -50,22 +50,22 @@ const Header = () => {
             </div>
           </div>
         </nav>
-        <div className="relative z-10 grid items-center justify-center mt-[13%] ml-[40%] gap-3 text-white">
-          <h1 className="text-4xl font-bold w-60">Gautam</h1>
+        <div className="relative z-10 grid items-center justify-center mt-16 md:mt-[13%] md:ml-[40%] gap-3 text-white">
+          <h1 className="text-4xl font-bold w-60 md:w-auto">Airbne Open</h1>
           <p
-            className="grid w-[37%] font-thin text-2xl"
+            className="grid w-full px-4 md:w-[37%] font-thin text-2xl"
             style={isOpen ? null : ParagraphStyles}
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At impedit
             tempore dicta veniam sit voluptates ipsa repellendus autem, quasi
             placeat! Id.
           </p>
-          <button className="text-3xl w-56 ml-56" onClick={() => setIsOpen(!isOpen)}>
+          <button className="text-3xl w-full md:w-56 ml-0 md:ml-56" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? " " : "Read more..."}
           </button>
-          <div className="text-2xl cursor-pointer w-40">
+          <div className="text-2xl cursor-pointer w-full md:w-40 text-center md:text-left">
             <span className="mr-4">See More</span>
-            <i class="fa-solid fa-arrow-down fa-bounce"></i>
+            <i className="fa-solid fa-arrow-down fa-bounce"></i>
           </div>
         </div>
       </div>
