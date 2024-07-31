@@ -5,7 +5,6 @@ import Main from './Project/Main';
 const App = () => {
   return (
     <>
-      {/* <Mapping/> */}
       <Main/>
 
     </>
