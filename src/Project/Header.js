@@ -51,7 +51,7 @@ const Header = () => {
           </div>
         </nav>
         <div className="relative z-10 grid items-center justify-center mt-[13%] ml-[40%] gap-3 text-white">
-          <h1 className="text-4xl font-bold w-60">Airbnb Open</h1>
+          <h1 className="text-4xl font-bold w-60">Gautam</h1>
           <p
             className="grid w-[37%] font-thin text-2xl"
             style={isOpen ? null : ParagraphStyles}
