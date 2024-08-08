@@ -3,7 +3,7 @@ import React from 'react'
 const The_Challenge = () => {
   return (
     <div>
-      <div className="flex h-screen  justify-center   bg-white mt-[15%]">
+      <div className="flex h-screen justify-center   bg-white mt-[15%]">
      
 
      <div className="grid grid-cols-2 max-w-6xl  h-[60%] ">
@@ -27,6 +27,12 @@ const The_Challenge = () => {
      </div> 
      </div>
    </div>
+<div className=" ">
+<div className="grid grid-cols-4 max-w-3xl  h-[50%] ">
+  <img src="https://img.freepik.com/free-vector/digital-device-mockup_53876-90966.jpg?w=826&t=st=1722827988~exp=1722828588~hmac=820b76bd3ac4259e8106b802e9e0d08c9d461963241794a0cc33a4ac8c4222b5" alt="1" />
+</div>
+
+</div>
     </div>
   )
 }
