@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 import Header from './Header'
 import Homeairbine from './Homeairbine'
 import The_Challenge from './The_Challenge'
+import Talk from './Talk'
 
 
 
@@ -20,6 +21,8 @@ const Main = () => {
       </Routes>
       <Homeairbine/>
       <The_Challenge/>
+      <Talk/>
+
 
     </div>
   )
